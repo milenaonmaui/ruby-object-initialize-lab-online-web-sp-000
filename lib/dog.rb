@@ -8,12 +8,12 @@ class Person
 end
 
 class Dog
-  def initialize(breed = "Mutt")
-    @breed = breed
+  def initialize(breed1, breed2 = "Mutt")
+    @breed1 = breed1
+    @breed2 = breed2
   end
 
   def breed
-    @breed
+    [@breed1, @breed2]
   end
 end
-  
